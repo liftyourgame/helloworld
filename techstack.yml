@@ -1,0 +1,222 @@
+repo_name: liftyourgame/helloworld
+report_id: e07d95a1624b5ecf74a27708c29b519d
+repo_type: Public
+timestamp: '2023-12-14T16:25:50+00:00'
+requested_by: liftyourgame
+provider: github
+branch: master
+detected_tools_count: 18
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Ehcache
+  description: Java's Most Widely-Used Cache
+  website_url: http://ehcache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cache
+  image_url: https://img.stackshare.io/service/3093/EhcacheTwitterIcon.png
+  detection_source: build.gradle
+  last_updated_by: Greg Pagendam-Turner
+  last_updated_on: 2016-05-27 08:34:32.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source: build.gradle
+  last_updated_by: Greg Pagendam-Turner
+  last_updated_on: 2016-05-27 08:34:32.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source: build.gradle
+  last_updated_by: Greg Pagendam-Turner
+  last_updated_on: 2016-05-27 08:34:32.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source: grails-app/conf/logback.groovy
+  last_updated_by: Greg Pagendam-Turner
+  last_updated_on: 2016-05-27 08:34:32.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source: grails-app/conf/application.yml
+  last_updated_by: Greg Pagendam-Turner
+  last_updated_on: 2016-05-27 08:34:32.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: build.gradle
+  last_updated_by: Greg Pagendam-Turner
+  last_updated_on: 2016-05-27 08:34:32.000000000 Z
+- name: net.sourceforge.htmlunit:htmlunit
+  description: A headless browser intended for use in testing web-based applications
+  version: '2.18'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/liftyourgame/helloworld/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Greg Pagendam-Turner
+  last_updated_on: 2016-05-27 08:34:32.000000000 Z
+  vulnerabilities:
+  - name: HtmlUnit Code Injection vulnerability
+    cve_id: CVE-2023-26119
+    cve_url: https://github.com/advisories/GHSA-3xrr-7m6p-p7xh
+    detected_date: Jul 7
+    severity: critical
+    first_patched: 3.0.0
+  - name: Code execution vulnerability in HtmlUnit
+    cve_id: CVE-2020-5529
+    cve_url: https://github.com/advisories/GHSA-5mh9-r3rr-9597
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.37.0
+- name: org.grails:grails-core
+  description: Grails Web Application Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: build.gradle
+  last_updated_by: Greg Pagendam-Turner
+  last_updated_on: 2016-05-27 08:34:32.000000000 Z
+- name: org.hibernate:hibernate-ehcache
+  description: Integration for using Ehcache 2.x as a Hibernate second-level-cache
+    provider
+  license: LGPL-2.0-only,GPL-3.0-or-later
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: build.gradle
+  last_updated_by: Greg Pagendam-Turner
+  last_updated_on: 2016-05-27 08:34:32.000000000 Z
+- name: org.seleniumhq.selenium:selenium-htmlunit-driver
+  version: 2.47.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/liftyourgame/helloworld/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Greg Pagendam-Turner
+  last_updated_on: 2016-05-27 08:34:32.000000000 Z
+- name: org.springframework.boot:spring-boot-autoconfigure
+  description: Spring Boot AutoConfigure
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: build.gradle
+  last_updated_by: Greg Pagendam-Turner
+  last_updated_on: 2016-05-27 08:34:32.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: build.gradle
+  last_updated_by: Greg Pagendam-Turner
+  last_updated_on: 2016-05-27 08:34:32.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-logging
+  description: Starter for logging using Logback. Default logging starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: build.gradle
+  last_updated_by: Greg Pagendam-Turner
+  last_updated_on: 2016-05-27 08:34:32.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-tomcat
+  description: Starter for using Tomcat as the embedded servlet container
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: build.gradle
+  last_updated_by: Greg Pagendam-Turner
+  last_updated_on: 2016-05-27 08:34:32.000000000 Z
